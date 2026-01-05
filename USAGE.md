@@ -17,7 +17,7 @@
 
     Once done, just paste the contents of the movie patch into the directory.
 
-    For the scripts, you can do the same steps, download them from the `sctl` folder or the repo base, rename original scripts using the same non-destructive method as above, it should look like `SC000.scr.org` or `SX001.scr.org`.
+    For the scripts, you can do the same steps, download them from the the repo base, rename original scripts using the same non-destructive method as above, it should look like `SC000.scr.org` or `SX001.scr.org`.
 
     Once done, you can launch Xenia Canary by opening `default.xex`, and the game should load the custom files.
 # How to use the patch on real hardware (advanced)
