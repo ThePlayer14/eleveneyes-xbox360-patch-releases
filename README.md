@@ -2,8 +2,13 @@
 11eyes CrossOver localization patch releases
 
 [How to use](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/USAGE.md)
+
+# Downloading the patch
+* Download `scripts-cooked.tar.zst` and the movie patch from the Releases section and apply the patch as it's described in  [How to use](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/USAGE.md).
+
 # What's supported by this patch?
 * The `.scr` scripts that can be extracted by [MagesTools](https://github.com/ThePlayer14/MagesTools_en) or [sc3tools_mod](https://github.com/ThePlayer14/sc3tools_mod) .
+* You can edit the contents of those scripts by using MagesTools and the charset file. The charset file should be unpacked first, then it's ready to use. 
 
 # Limitations of the patch
 * The UI for the game cannot be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
