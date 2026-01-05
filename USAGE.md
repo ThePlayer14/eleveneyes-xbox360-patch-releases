@@ -21,6 +21,7 @@
     The baseline patch has the translated UI text segments that are driven by the scripts themselves.
 
     Once done, you can launch Xenia Canary by opening `default.xex`, and the game should load the custom files.
+The charset file is also available.
 # How to use the patch on real hardware (advanced)
 Depending on your console version, this might vary. I've tested it on a Xbox 360 Slim with a Trinity motherboard.
 
