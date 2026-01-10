@@ -14,3 +14,7 @@
 # Limitations of the patch
 * The UI for the game cannot be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
 Only an unpacker named [exlnk4](https://github.com/hiroshil/asmodean-tools/tree/main/exlnk4) is known to exist, but not a packer for this format.
+
+# Credits
+* SunSubs Team for translation
+* Charset file by John_Titor 
