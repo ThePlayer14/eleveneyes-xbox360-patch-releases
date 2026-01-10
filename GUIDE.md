@@ -1,5 +1,5 @@
 # Using the menus
-*The menu options within the game are pretty much straightforward, but the dialogs like the New Game, Option and the in-game pause menu (X) button, are stored within an untranslatable archive. This guide's aim is to make it easier to navigate through.
+* The menu options within the game are pretty much straightforward, but the dialogs like the New Game, Option and the in-game pause menu (X) button, are stored within an untranslatable archive. This guide's aim is to make it easier to navigate through.
 
 # New Game
 <img width="1277" height="717" alt="image" src="https://github.com/user-attachments/assets/c6de3a0e-087b-4261-8c15-ac66816be9bb" />
