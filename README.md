@@ -2,6 +2,7 @@
 11eyes CrossOver localization patch releases
 
 [How to use](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/USAGE.md)
+
 [Menu guide](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/GUIDE.md)
 
 # Downloading the patch
