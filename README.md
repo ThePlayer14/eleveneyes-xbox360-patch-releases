@@ -9,7 +9,7 @@
 # What's supported by this patch?
 * The `.scr` scripts that can be extracted by [MagesTools](https://github.com/ThePlayer14/MagesTools_en).
 * You can edit the contents of those scripts by using MagesTools and the charset file. The charset file should be unpacked first, then it's ready to use.
-* Currently, only the CrossOver storyline is fully translated in this patch, but stay tuned for updates.
+* Currently, only the CrossOver storyline is fully translated in this patch, but stay tuned for updates for the main storyline, which will gradually get released.
 
 # Limitations of the patch
 * The UI for the game cannot be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
