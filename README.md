@@ -18,5 +18,5 @@
 Only an unpacker named [exlnk4](https://github.com/hiroshil/asmodean-tools/tree/main/exlnk4) is known to exist, but not a packer for this format.
 
 # Credits
-* SunSubs Team for translation
+* SunSubs Team and [Asahina](https://github.com/kokomif) for translation
 * Charset file by John_Titor 
