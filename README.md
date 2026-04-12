@@ -5,13 +5,18 @@
 
 [Menu guide](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/GUIDE.md)
 
+# Important disclaimer
+* Due to unforeseen consequences, the patch might not be able to be continued for a long time. However, you can use the method outlined at [MagesTools](https://github.com/ThePlayer14/MagesTools_en) to make the remaining scripts.
+
 # Downloading the patch
 * Download `scripts-cooked.tar.zst` and the movie patch from the Releases section and apply the patch as it's described in  [How to use](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/USAGE.md).
 
 # What's supported by this patch?
 * The `.scr` scripts that can be extracted by [MagesTools](https://github.com/ThePlayer14/MagesTools_en).
 * You can edit the contents of those scripts by using MagesTools and the charset file. The charset file should be unpacked first, then it's ready to use.
-* Currently, only the CrossOver storyline is fully translated in this patch, but stay tuned for updates for the main storyline, which will gradually get released.
+* Currently, only the CrossOver storyline is fully translated in this patch.
+
+
 
 # Limitations of the patch
 * The UI for the game cannot be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
