@@ -19,6 +19,10 @@
 # How to create the cinematics with the subs
 The original WMV files need to be hardsubbed with the relevant Substation subtitle from the subtitle archive, re-encoded into AVI using Avidemux (or the transcoder of your choice), and then, this AVI is loaded into [Expression Encoder](https://www.videohelp.com/software/Microsoft-Expression-Encoder), selecting the `VC1 Xbox 360 720p` preset. Set Bitrate to 8000, and the audio to plain WMA, set Audio bitrate to 192k and 48.0 kHz. The output file should play inside Xenia DX12 (Windows) or a modded Xbox 360.
 
+# Picking up the project
+If you'd like to pick up the project, grab the script archive, which has the raw, untranslated and text-converted sources for all the scripts that were in the original SCR files.
+
+If you're looking to pick up the Original Story segment, continue at `SC045`.
 
 # Limitations of the patch
 * The UI for the game cannot be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
