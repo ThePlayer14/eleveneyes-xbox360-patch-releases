@@ -13,7 +13,7 @@
 
 # What's supported by this patch?
 * The `.scr` scripts that can be extracted by [MagesTools](https://github.com/ThePlayer14/MagesTools_en).
-* You can edit the contents of those scripts by using MagesTools and the charset file. The charset file should be unpacked first, then it's ready to use.
+* You can edit the contents of those scripts by using MagesTools and the charset file. Use the "despacer" version of the charset for proper "space" insertion. The charset file should be unpacked first, then it's ready to use.
 * Currently, only the CrossOver storyline is fully translated in this patch.
 
 # How to create the cinematics with the subs
