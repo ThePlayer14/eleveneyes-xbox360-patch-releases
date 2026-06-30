@@ -3,8 +3,6 @@
 
 [How to use](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/USAGE.md)
 
-[Menu guide](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/GUIDE.md)
-
 # Important disclaimer
 * Due to unforeseen consequences, the patch might not be able to be continued for a long time. However, you can use the method outlined at [MagesTools](https://github.com/ThePlayer14/MagesTools_en) to make the remaining scripts.
 
@@ -15,7 +13,7 @@
 * The `.scr` scripts that can be extracted by [MagesTools](https://github.com/ThePlayer14/MagesTools_en).
 * You can edit the contents of those scripts by using MagesTools and the charset file. Use the "despacer" version of the charset for proper "space" insertion. The charset file should be unpacked first, then it's ready to use.
 * Currently, only the CrossOver storyline is fully translated in this patch.
-* Translation for the UI will be supported at a later point.
+* UI translation patch is now available. Get it from the Releases section.
 
 # How to create the cinematics with the subs
 The original WMV files need to be hardsubbed with the relevant Substation subtitle from the subtitle archive, re-encoded into AVI using Avidemux (or the transcoder of your choice), and then, this AVI is loaded into [Expression Encoder](https://www.videohelp.com/software/Microsoft-Expression-Encoder), selecting the `VC1 Xbox 360 720p` preset. Set Bitrate to 8000, and the audio to plain WMA, set Audio bitrate to 192k and 48.0 kHz. The output file should play inside Xenia DX12 (Windows) or a modded Xbox 360.
@@ -25,9 +23,12 @@ If you'd like to pick up the project, grab the script archive, which has the raw
 
 If you're looking to pick up the Original Story segment, continue at `SC045`.
 
-# Limitations of the patch
+# Remarks
 * Originally, the UI for the game couldn't be localized. All UI interface BMP files, including the character atlas (`011.bmp`) are stored within the `system.dat` file, which is an LNK4 archive.
-~~Only an unpacker named [exlnk4](https://github.com/hiroshil/asmodean-tools/tree/main/exlnk4) is known to exist, but not a packer for this format.~~ (This is going to change soon.)
+~~Only an unpacker named [exlnk4](https://github.com/hiroshil/asmodean-tools/tree/main/exlnk4) is known to exist, but not a packer for this format.~~ 
+This is no longer the case since there's a [Python tool](https://github.com/ThePlayer14/LNK4tool_aio) that can handle both extraction and packing.  
+If you're looking for the menu guide as a reference, here it is: [Menu guide](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/GUIDE.md)
+* It is possible to splice in characters into the atlas file (`011.png`). However you need to test if your insertions are showing up correctly, and also, if you splice in new characters in the atlas file, make sure to add them into the charset file you're using
 
 * Please note that this patch is an experimental one, and the Main Story segment might not be fully completed, since there might be undiscovered bugs in the script conversion process. The CrossOver segment does not exhibit this issue.
 
