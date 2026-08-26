@@ -29,7 +29,9 @@ If you're looking to pick up the Original Story segment, continue at `SC045`.
 This is no longer the case since there's a [Python tool](https://github.com/ThePlayer14/LNK4tool_aio) that can handle both extraction and packing.  
 If you're looking for the menu guide as a reference, here it is: [Menu guide](https://github.com/ThePlayer14/eleveneyes-xbox360-patch-releases/blob/main/GUIDE.md)
 * It is possible to splice in characters into the atlas file (`011.png`). However you need to test if your insertions are showing up correctly, and also, if you splice in new characters in the atlas file, make sure to add them into the charset file you're using.
-* It's also possible to create atlases using charset files via [mgsfontgen-dx_py](https://github.com/ThePlayer14/mgsfontgen_dx-python) with specific settings (64 columns, font size 28, MS PGothic), however, your mileage may wary with other fonts / settings. However, you might need to tweak the original "despacer" charset file to add in characters present in `011.png` that are not in the "despacer" file. Note that the tweaked charset is only useful for "display" purposes, trying to use it as a charset file for decoding / encoding will likely result in a garbled output.
+* It's also possible to create atlases using charset files via [mgsfontgen-dx_py](https://github.com/ThePlayer14/mgsfontgen_dx-python) with specific settings (64 columns, font size 28, MS PGothic), however, your mileage may wary with other fonts / settings.
+
+However, you might need to tweak the original "despacer" charset file to add in characters present in `011.png` that are not in the "despacer" file. Note that the tweaked charset is only useful for "display" purposes, trying to use it as a charset file for decoding / encoding will likely result in a garbled output.
 
 * Please note that this patch is an experimental one, and the Main Story segment might not be fully completed, since there might be undiscovered bugs in the script conversion process. The CrossOver segment does not exhibit this issue.
 
